@@ -1,6 +1,6 @@
 import { LoginPageLocator, PageLocator } from "@pageLocators";
 
-export class LoginPageHandler {
+export class LoginPageActions {
     protected pageLocator: LoginPageLocator;
     constructor(pageLocator: LoginPageLocator) {
         this.pageLocator = pageLocator;

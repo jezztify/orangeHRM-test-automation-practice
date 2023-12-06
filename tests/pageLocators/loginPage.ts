@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import { PageLocator } from "./locators";
+import { PageLocator } from "@pageLocators";
 
 
 export class LoginPageLocator extends PageLocator {
@@ -7,7 +7,7 @@ export class LoginPageLocator extends PageLocator {
         super(page)
     }
 
-    usernameInput = this.page.getByPlaceholder('Username');
-    passwordInput = this.page.getByPlaceholder('Password')
-    loginButton = this.page.locator('button')
+    usernameInput = this.page.locator('//input[@name="username"]');
+    passwordInput = this.page.locator('//input[@name="password"]');
+    loginButton = this.page.locator('//button[@type="submit"]');
 }
