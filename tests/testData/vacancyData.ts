@@ -31,16 +31,3 @@ export class VacancyTestDataManager {
         return this.vacancyData[this.vacancyData.length - 1];
     }
 }
-
-
-// export const vacancyData: VacancyData = {
-//     vacancyName: `This Vacancy - ${new Date().getTime()}`,
-//     jobTitle: 'QA Engineer',
-//     numberOfPositions: 5,
-//     hiringManager: 'Lisa  Andrews',
-//     description: 'Awesome QA Engineer',
-//     active: true
-// }
-
-// export const updatedVacancyData = cloneDeep(vacancyData);
-// updatedVacancyData.jobTitle = 'QA Lead';
