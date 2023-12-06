@@ -106,13 +106,5 @@ test.describe('Orange HRM @e2e', () => {
                 await expect(pageLocators.recruitmentPageLocator!.vacanciesSubPageLocator.searchResultRow).toHaveCount(0);
             })
         })
-
-        test.describe('Candidate Subpage', () => {
-            test.skip('should be able to load the Candidate subpage', () => {});
-            test.skip('should be able to create a new candidate', () => {});
-            test.skip('should be able to search for an existing candidate', () => {});
-            test.skip('should be able to update an existing candidate', () => {});
-            test.skip('should be able to delete an existing candidate', () => {})
-        })
     })
 })
