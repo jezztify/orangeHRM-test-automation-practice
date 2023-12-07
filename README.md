@@ -1,7 +1,8 @@
 # Test Documentation
 ### Assumptions on requirements
-* Orange HRM is testing the Vacancy management feature.
+* Orange HRM is testing the Vacancy management and Employment management features
 * It should be able to create, search, update, and delete vacancy records.
+* It should be able to use the API to create employee create, search, update, and delete employee records.
 
 ### Summary of Automated Tests
 | Test | Type | Automated? |
